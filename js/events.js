@@ -18,3 +18,8 @@ function frameIt() {
     $('img').addClass('tasty');
   });
 }
+
+function pressIt() {
+  $('form input').on()
+}
+
