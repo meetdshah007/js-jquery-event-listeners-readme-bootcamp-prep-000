@@ -20,6 +20,8 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form input').on()
+  $('form input').on('keydown', function(key){
+    if(key.which === )
+  });
 }
 
