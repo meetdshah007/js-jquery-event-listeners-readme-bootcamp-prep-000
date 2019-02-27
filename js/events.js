@@ -5,6 +5,7 @@ $(document).ready(function(){
 // call functions here
   getIt();
   frameIt();
+  pressIt()
 });
 
 function getIt() {
@@ -21,7 +22,9 @@ function frameIt() {
 
 function pressIt() {
   $('form input').on('keydown', function(key){
-    if(key.which === )
+    if(key.which === 71){
+      alert("G key is pressed");
+    }
   });
 }
 
